@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'mongodbatlasazurenodejs'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AE2B7A3BBD3E4F48ADFF18DBEEAF6C76 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
           package: .
